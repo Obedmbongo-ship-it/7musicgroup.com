@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>7Music Group | Label services</title>
+<meta name="description" content="Label services : distribution, management, marketing et promo, direction artistique, production et enregistrement.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fff;--fg:#0a0a0a;--soft:#f1f1f0;--muted:#5a5a5a;--line:#ddd;--gold:#c8a24a;--dark:#0a0a0a;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0a0a0a;--fg:#f5f5f5;--soft:#171717;--muted:#a3a3a3;--line:#2b2b2b;--dark:#141414}}
+:root[data-theme="dark"]{--bg:#0a0a0a;--fg:#f5f5f5;--soft:#171717;--muted:#a3a3a3;--line:#2b2b2b;--dark:#141414}
+*,*::before,*::after{box-sizing:inherit;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 82px)}
+body{font-family:Poppins,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.5;-webkit-font-smoothing:antialiased}
+a{text-decoration:none;color:inherit}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.header{height:82px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:0 5vw;position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);z-index:20}
+.logo{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:.02em}
+.logo svg{height:34px;width:auto;fill:currentColor}
+.nav{display:flex;align-items:center;gap:28px;font-size:13px;font-weight:700;text-transform:uppercase}
+.nav a:hover{opacity:.55}
+.nav .cta{background:var(--fg);color:var(--bg);padding:10px 18px}
+.btn{display:inline-block;padding:15px 28px;border:2px solid currentColor;font:700 14px Poppins,Arial,sans-serif;text-transform:uppercase;cursor:pointer;background:none;color:inherit}
+.btn.gold{background:var(--gold);border-color:var(--gold);color:#0a0a0a}
+.hero{min-height:74vh;display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:4vw;padding:6vw 8vw;background:var(--soft)}
+.kicker{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:2px;margin-bottom:22px}
+h1{font-size:clamp(42px,6.4vw,92px);line-height:.92;letter-spacing:-.045em;text-transform:uppercase;font-weight:800;animation:rise .9s cubic-bezier(.2,.7,.2,1) both}
+.hero p{max-width:32em;font-size:18px;line-height:1.6;margin:32px 0}
+.btns{display:flex;flex-wrap:wrap;gap:14px}
+.hero-art{position:relative;height:520px;background:linear-gradient(135deg,#0a0a0a 0%,#262626 55%,#5c4a1e 100%);display:flex;align-items:center;justify-content:center;overflow:hidden}
+#wave{position:absolute;inset:0;width:100%;height:100%}
+.big7{position:relative;height:74%;width:auto;fill:#fff;transform:scale(var(--beat,1));transform-origin:50% 100%}
+@keyframes rise{from{opacity:0;transform:translateY(22px)}}
+.eq{display:inline-flex;gap:2px;align-items:flex-end;height:18px}
+.eq i{width:3px;height:100%;background:var(--gold);animation:eq .9s ease-in-out infinite alternate}
+.eq i:nth-child(2){animation-duration:.6s;animation-delay:-.2s}.eq i:nth-child(3){animation-duration:1.1s;animation-delay:-.5s}.eq i:nth-child(4){animation-duration:.75s;animation-delay:-.1s}
+@keyframes eq{from{height:20%}to{height:100%}}
+.tick{overflow:hidden;background:var(--gold);color:#0a0a0a;font-weight:800;text-transform:uppercase;white-space:nowrap}
+.tick div{display:inline-block;padding:14px 0;animation:tick 30s linear infinite}
+.tick span{display:inline-block;margin-right:48px}
+.tick span::after{content:"";display:inline-block;width:10px;height:22px;margin-left:48px;background:#0a0a0a;clip-path:polygon(0 0,100% 0,100% 18%,0 100%);vertical-align:-4px}
+@keyframes tick{to{transform:translateX(-50%)}}
+.section{padding:100px 8vw}
+.section-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:45px}
+.section-head h2{font-size:clamp(32px,5vw,68px);line-height:.95;letter-spacing:-.04em;text-transform:uppercase;font-weight:800}
+.section-head p{font-size:13px;text-transform:uppercase;font-weight:700}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:var(--soft);display:flex;flex-direction:column}
+.card-img{height:190px;display:flex;align-items:flex-end;padding:18px;color:#fff;font-weight:800;font-size:46px;line-height:1;background:linear-gradient(145deg,#0a0a0a,#454545)}
+.card:nth-child(2) .card-img{background:linear-gradient(145deg,#0a0a0a,#7a5f1c)}
+.card:nth-child(3) .card-img{background:linear-gradient(145deg,#1c1c1c,#c8a24a)}
+.card:nth-child(5) .card-img{background:linear-gradient(145deg,#2a2a2a,#8a8a8a)}
+.card-info{padding:20px;flex:1}
+.card-info strong{font-size:19px;display:block}
+.card-info p{color:var(--muted);font-size:15px;margin-top:8px}
+.card.go{background:var(--gold);color:#0a0a0a;padding:26px;justify-content:space-between}
+.card.go strong{font-size:28px;line-height:1.05;text-transform:uppercase;letter-spacing:-.02em}
+.card.go .btn{align-self:flex-start;margin-top:24px}
+.dark{background:var(--dark);color:#f5f5f5}
+.steps{list-style:none;counter-reset:s;display:grid;grid-template-columns:repeat(4,1fr);gap:28px}
+.steps li{counter-increment:s;border-top:3px solid var(--gold);padding-top:18px}
+.steps li::before{content:counter(s,decimal-leading-zero);display:block;font-size:52px;font-weight:800;color:var(--gold);line-height:1;margin-bottom:14px}
+.steps h3{font-size:19px;margin-bottom:6px}
+.steps p{color:#b5b5b5;font-size:15px}
+.packs{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.pack{background:var(--soft);padding:32px 28px;display:flex;flex-direction:column;border-top:4px solid var(--line)}
+.pack.main{border-top-color:var(--gold)}
+.pack h3{font-size:24px;text-transform:uppercase;letter-spacing:-.02em}
+.pack .for{color:var(--muted);font-size:15px;margin:6px 0 18px}
+.pack ul{padding-left:20px;flex:1;margin-bottom:22px}
+.pack li{margin-bottom:6px;font-size:15px}
+.pack .price{font-weight:700;text-transform:uppercase;font-size:14px}
+.contact{background:var(--gold);color:#0a0a0a;padding:90px 8vw;display:grid;grid-template-columns:.8fr 1.2fr;gap:60px}
+.contact h2{font-size:clamp(38px,5.6vw,78px);line-height:.92;letter-spacing:-.045em;text-transform:uppercase;font-weight:800}
+.contact p.l{margin-top:22px;max-width:24em}
+form{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+label{display:flex;flex-direction:column;gap:4px;font-size:13px;font-weight:700;text-transform:uppercase}
+label.full,.actions{grid-column:1/-1}
+input,select,textarea{font:400 17px Poppins,Arial,sans-serif;border:0;border-bottom:2px solid #0a0a0a;background:transparent;color:#0a0a0a;padding:10px 0;border-radius:0;width:100%;outline:0}
+textarea{min-height:90px;resize:vertical}
+input::placeholder,textarea::placeholder{color:#3d3413}
+.actions .btn{background:#0a0a0a;border-color:#0a0a0a;color:#fff}
+.note{font-size:14px;margin-top:10px}
+footer{background:#0a0a0a;color:#f5f5f5;padding:65px 8vw 40px}
+.footer-top{display:flex;justify-content:space-between;align-items:center;gap:24px;border-bottom:1px solid #444;padding-bottom:40px}
+.footer-links{display:flex;gap:30px;font-size:12px;text-transform:uppercase;font-weight:700}
+.footer-bottom{padding-top:24px;color:#9a9a9a;font-size:12px}
+.js .rv{opacity:0;transform:translateY(26px);transition:opacity .7s ease,transform .7s ease}
+.js .rv.in{opacity:1;transform:none}
+@media (max-width:900px){
+.nav a:not(.cta){display:none}
+.hero{grid-template-columns:1fr;padding:60px 6vw}.hero-art{height:340px}
+.section{padding:70px 6vw}.grid,.packs{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr 1fr}
+.contact{grid-template-columns:1fr;padding:70px 6vw;gap:36px}
+.footer-top{flex-direction:column;align-items:flex-start}.section-head{display:block}.section-head p{margin-top:12px}
+}
+@media (max-width:560px){.grid,.packs,.steps,form{grid-template-columns:1fr}.logo span.t{font-size:14px}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.js .rv{opacity:1;transform:none}}
+
+.filters{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:28px}
+.filters button{font:700 13px Poppins,Arial,sans-serif;text-transform:uppercase;padding:10px 18px;border:2px solid currentColor;background:none;color:inherit;cursor:pointer}
+.filters button[aria-pressed="true"]{background:var(--gold);border-color:var(--gold);color:#0a0a0a}
+.art-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.art-card{display:flex;flex-direction:column;text-align:left;cursor:pointer;border:0;background:#1d1d1d;color:#f5f5f5;font:inherit;padding:0}
+.art-img{position:relative;aspect-ratio:4/5;background:linear-gradient(145deg,#1c1c1c,#5c4a1e) center/cover;display:flex;align-items:center;justify-content:center;overflow:hidden;transition:filter .4s}
+.art-img b{font-size:64px;font-weight:800;color:rgba(255,255,255,.85)}
+.art-img::after{content:"";position:absolute;right:16px;top:16px;width:26px;height:74px;background:var(--gold);clip-path:polygon(0 0,100% 0,100% 18%,0 100%);opacity:0;transform:translateY(-12px);transition:opacity .35s,transform .35s}
+.art-card:hover .art-img::after,.art-card:focus-visible .art-img::after{opacity:1;transform:none}
+.art-card:hover .art-img{filter:grayscale(1)}
+.art-img .eq{position:absolute;left:16px;bottom:16px;opacity:0;transition:opacity .3s}
+.art-card:hover .eq,.art-card:focus-visible .eq{opacity:1}
+.art-info{padding:16px 18px 20px;display:flex;flex-direction:column;gap:4px}
+.art-info strong{font-size:18px}
+.art-info small{text-transform:uppercase;font-size:11px;letter-spacing:.06em;color:#b5b5b5}
+.art-info em{font-size:13px;font-style:normal;color:#b5b5b5}
+.art-card.empty{border:1px dashed #666;background:none}
+.empty-note{margin-top:28px;color:#b5b5b5}
+.empty-note a{text-decoration:underline;color:var(--gold)}
+dialog{max-width:560px;width:calc(100% - 32px);border:0;padding:34px;background:var(--bg);color:var(--fg);margin:auto}
+dialog::backdrop{background:rgba(0,0,0,.72)}
+dialog h3{font-size:30px;text-transform:uppercase;letter-spacing:-.03em;font-weight:800;line-height:1}
+dialog .g{color:var(--muted);text-transform:uppercase;font-size:12px;font-weight:700;margin:6px 0 16px}
+dialog p{margin-bottom:16px}
+dialog ul{list-style:none;display:flex;flex-wrap:wrap;gap:10px;margin-bottom:18px}
+dialog ul a{display:inline-block;border:2px solid currentColor;padding:6px 14px;font-size:13px;font-weight:700}
+dialog ul.sv li{background:var(--soft);padding:6px 12px;font-size:13px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:18px}
+.stats div{background:var(--soft);padding:12px}
+.stats b{display:block;font-size:19px}
+.stats span{font-size:12px;color:var(--muted)}
+.news{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.news-card{min-height:340px;padding:26px;display:flex;flex-direction:column;justify-content:flex-end;color:#fff;background:linear-gradient(160deg,#1c1c1c,#0a0a0a)}
+.news-card:nth-child(2){background:linear-gradient(160deg,#5c4a1e,#0a0a0a)}
+.news-card:nth-child(3){background:linear-gradient(160deg,#c8a24a,#1c1c1c)}
+.news-card span{font-size:11px;text-transform:uppercase;font-weight:700;letter-spacing:.08em}
+.news-card h3{font-size:24px;line-height:1.1;margin:10px 0 8px}
+.news-card p{font-size:15px;opacity:.88}
+.news-card a{margin-top:14px;font-weight:700;text-transform:uppercase;font-size:13px;border-bottom:2px solid var(--gold);align-self:flex-start}
+@media (max-width:900px){.art-grid{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.stats{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header class="header">
+<a class="logo" href="#top" aria-label="7Music Group, accueil"><svg viewBox="0 0 142 407" aria-hidden="true"><path d="M0,0 L142,0 L142,72 L0,407 Z"/></svg><span class="t">SEVEN MUSIC GROUP</span><span class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span></a>
+<nav class="nav" aria-label="Navigation principale"><a href="#services">Services</a><a href="#artistes">Artistes</a><a href="#news">News</a><a href="#methode">Méthode</a><a href="#formules">Formules</a><a class="cta" href="#contact">Contact</a></nav>
+</header>
+<main id="top">
+<section class="hero">
+<div>
+<div class="kicker">Label services</div>
+<h1>Votre musique, vos droits.</h1>
+<p>7Music Group accompagne les artistes et les labels : distribution, management, marketing, direction artistique et production. Vous choisissez les services utiles à votre projet et vous gardez la propriété de vos œuvres.</p>
+<div class="btns"><a class="btn gold" href="#contact">Soumettre mon projet</a><button class="btn" id="snd" type="button" aria-pressed="false">Activer le son</button></div>
+</div>
+<div class="hero-art"><canvas id="wave" aria-hidden="true"></canvas><svg id="big7" class="big7" viewBox="0 0 142 407" role="img" aria-label="Le 7 de 7Music Group"><path d="M0,0 L142,0 L142,72 L0,407 Z"/></svg></div>
+</section>
+<div class="tick" aria-hidden="true"><div><span>Distribution</span><span>Management</span><span>Marketing et promo</span><span>Direction artistique</span><span>Production et enregistrement</span><span>Distribution</span><span>Management</span><span>Marketing et promo</span><span>Direction artistique</span><span>Production et enregistrement</span></div></div>
+
+<section class="section" id="services">
+<div class="section-head rv"><h2>Nos services</h2><p>Développer • Accompagner • Diffuser</p></div>
+<div class="grid">
+<article class="card rv"><div class="card-img">01</div><div class="card-info"><strong>Distribution</strong><p>Vos titres sur toutes les plateformes, avec un suivi clair des écoutes et des revenus.</p></div></article>
+<article class="card rv"><div class="card-img">02</div><div class="card-info"><strong>Management</strong><p>Planification de carrière, collaborations, dates et négociation des contrats.</p></div></article>
+<article class="card rv"><div class="card-img">03</div><div class="card-info"><strong>Marketing et promo</strong><p>Plan de sortie, contenus, campagnes ciblées, médias et playlists.</p></div></article>
+<article class="card rv"><div class="card-img">04</div><div class="card-info"><strong>Direction artistique</strong><p>Identité visuelle et sonore, pochettes, clips, cohérence d'un projet à l'autre.</p></div></article>
+<article class="card rv"><div class="card-img">05</div><div class="card-info"><strong>Production et enregistrement</strong><p>Enregistrement, arrangement, mixage et mastering prêts pour les plateformes.</p></div></article>
+<article class="card go rv"><strong>Un projet en tête ?</strong><a class="btn" href="#contact">Nous écrire</a></article>
+</div>
+</section>
+
+<section class="section dark" id="artistes">
+<div class="section-head rv"><h2>Artistes</h2><p>Signés chez 7Music Group</p></div>
+<div class="filters" id="art-filters" role="group" aria-label="Filtrer par genre" hidden></div>
+<div class="art-grid" id="art-grid"></div>
+<p class="empty-note" id="art-note">Les artistes signés apparaîtront ici. Vous voulez être le prochain ? <a href="#contact">Soumettez votre projet</a>.</p>
+</section>
+
+<section class="section" id="news">
+<div class="section-head rv"><h2>News</h2><p>Dernières actualités</p></div>
+<div class="news" id="news-grid"></div>
+</section>
+
+<section class="section dark" id="methode">
+<div class="section-head rv"><h2>Comment nous travaillons</h2><p>Des résultats mesurés à chaque sortie</p></div>
+<ol class="steps">
+<li class="rv"><h3>Brief</h3><p>Nous écoutons votre projet, votre public et vos objectifs.</p></li>
+<li class="rv"><h3>Stratégie</h3><p>Calendrier de sortie, budget et services utiles.</p></li>
+<li class="rv"><h3>Exécution</h3><p>Distribution, contenus, promotion : chaque action est planifiée et suivie.</p></li>
+<li class="rv"><h3>Rapport</h3><p>Les résultats de la sortie et les pistes pour la suivante.</p></li>
+</ol>
+</section>
+
+<section class="section" id="formules">
+<div class="section-head rv"><h2>Formules</h2><p>Adaptées à votre budget</p></div>
+<div class="packs">
+<div class="pack rv"><h3>Lancement</h3><p class="for">Pour sortir un premier single ou un EP.</p><ul><li>Distribution sur les plateformes</li><li>Plan de sortie</li><li>Contenus de base pour les réseaux</li></ul><p class="price">Sur devis</p></div>
+<div class="pack main rv"><h3>Croissance</h3><p class="for">Pour développer un public déjà présent.</p><ul><li>Tout Lancement</li><li>Campagne de promotion ciblée</li><li>Direction artistique de la sortie</li><li>Rapport de résultats</li></ul><p class="price">Sur devis</p></div>
+<div class="pack rv"><h3>Accompagnement complet</h3><p class="for">Pour un projet suivi sur la durée.</p><ul><li>Tout Croissance</li><li>Management</li><li>Production et enregistrement</li><li>Stratégie de carrière</li></ul><p class="price">Sur devis</p></div>
+</div>
+</section>
+
+<section class="contact" id="contact">
+<div><h2>Soumettre mon projet.</h2><p class="l">Remplissez le formulaire : il prépare un message WhatsApp que vous n'avez plus qu'à envoyer.</p></div>
+<form id="f">
+<label>Nom d'artiste ou de label<input name="nom" required autocomplete="name"></label>
+<label>Genre musical<input name="genre" placeholder="Rumba, afrobeat, rap..."></label>
+<label class="full">Lien Spotify, YouTube ou Instagram<input name="lien" inputmode="url" placeholder="https://"></label>
+<label class="full">Service souhaité<select name="service"><option>Je ne sais pas encore</option><option>Distribution</option><option>Management</option><option>Marketing et promo</option><option>Direction artistique</option><option>Production et enregistrement</option></select></label>
+<label class="full">Votre projet en quelques lignes<textarea name="msg"></textarea></label>
+<div class="actions"><button class="btn" type="submit">Envoyer sur WhatsApp</button><p class="note">Une conversation WhatsApp s'ouvre avec votre message déjà rédigé.</p></div>
+</form>
+</section>
+</main>
+
+<footer>
+<div class="footer-top"><a class="logo" href="#top"><svg viewBox="0 0 142 407" aria-hidden="true"><path d="M0,0 L142,0 L142,72 L0,407 Z"/></svg><span class="t">SEVEN MUSIC GROUP</span></a>
+<div class="footer-links"><a href="https://www.instagram.com/7music_group" rel="noopener">Instagram</a><a href="#contact">Contact</a></div></div>
+<div class="footer-bottom">© 2026 7Music Group. Agence musique, label services.</div>
+</footer>
+<dialog id="art-dlg" aria-labelledby="dlg-t"></dialog>
+<script>
+/* ===== À REMPLIR : un bloc par artiste signé =====
+var ARTISTES=[{nom:"Nom d'artiste",genre:"Rumba",photo:"data:image/jpeg;base64,...",bio:"Deux ou trois phrases.",sortie:"Titre, octobre 2026",
+ liens:{spotify:"https://...",youtube:"https://...",apple:"https://...",instagram:"https://..."},
+ stats:{ecoutes:"120 K",vues:"300 K",pays:"12"},services:["Distribution","Marketing et promo"]}];
+   ===== Une actualité : {titre:"",categorie:"Sortie",date:"12 octobre 2026",texte:"",lien:"https://..."} ===== */
+var ARTISTES=[];
+var NEWS=[];
+(function(){
+function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]})}
+function ok(u){return /^https:\/\//.test(u||"")}
+function ini(n){return String(n).split(/\s+/).map(function(w){return w.charAt(0)}).join("").slice(0,2).toUpperCase()}
+var EQ='<span class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span>';
+var grid=document.getElementById("art-grid"),fl=document.getElementById("art-filters"),dlg=document.getElementById("art-dlg"),note=document.getElementById("art-note");
+
+if(!ARTISTES.length){
+  var e="";for(var k=0;k<4;k++)e+='<a class="art-card empty rv" href="#contact"><span class="art-img"><b>7</b></span><span class="art-info"><strong>Place disponible</strong><small>Votre projet ici</small></span></a>';
+  grid.innerHTML=e;
+}else{
+  note.hidden=true;
+  grid.innerHTML=ARTISTES.map(function(a,i){
+    var bg=/^data:image\//.test(a.photo||"")?' style="background-image:url('+esc(a.photo)+')"':"";
+    return '<button class="art-card rv" type="button" data-i="'+i+'" data-g="'+esc(a.genre)+'"><span class="art-img"'+bg+'>'+(bg?"":"<b>"+esc(ini(a.nom))+"</b>")+EQ+'</span><span class="art-info"><strong>'+esc(a.nom)+'</strong><small>'+esc(a.genre)+'</small>'+(a.sortie?"<em>Dernière sortie : "+esc(a.sortie)+"</em>":"")+'</span></button>';
+  }).join("");
+  var genres=[];ARTISTES.forEach(function(a){if(a.genre&&genres.indexOf(a.genre)<0)genres.push(a.genre)});
+  if(genres.length>1){
+    fl.hidden=false;
+    fl.innerHTML=["Tous"].concat(genres).map(function(g,i){return '<button type="button" aria-pressed="'+(i===0)+'" data-f="'+(i?esc(g):"")+'">'+esc(g)+'</button>'}).join("");
+    fl.addEventListener("click",function(ev){var b=ev.target.closest("button");if(!b)return;
+      [].forEach.call(fl.children,function(x){x.setAttribute("aria-pressed",x===b)});
+      [].forEach.call(grid.children,function(c){c.hidden=b.dataset.f&&c.dataset.g!==b.dataset.f});});
+  }
+  grid.addEventListener("click",function(ev){
+    var c=ev.target.closest(".art-card");if(!c)return;var a=ARTISTES[c.dataset.i],L=a.liens||{},S=a.stats||{};
+    var names={spotify:"Spotify",youtube:"YouTube",apple:"Apple Music",instagram:"Instagram"};
+    var links=Object.keys(names).filter(function(k){return ok(L[k])}).map(function(k){return '<li><a href="'+esc(L[k])+'" target="_blank" rel="noopener">'+names[k]+'</a></li>'}).join("");
+    var st=[["ecoutes","écoutes par mois"],["vues","vues"],["pays","pays d'écoute"]].filter(function(x){return S[x[0]]}).map(function(x){return '<div><b>'+esc(S[x[0]])+'</b><span>'+x[1]+'</span></div>'}).join("");
+    var sv=(a.services||[]).map(function(x){return '<li>'+esc(x)+'</li>'}).join("");
+    dlg.innerHTML='<h3 id="dlg-t">'+esc(a.nom)+'</h3><p class="g">'+esc(a.genre)+'</p>'+(a.bio?'<p>'+esc(a.bio)+'</p>':"")+(st?'<div class="stats">'+st+'</div>':"")+(links?'<ul>'+links+'</ul>':"")+(sv?'<p class="g">Services assurés par 7Music Group</p><ul class="sv">'+sv+'</ul>':"")+'<button class="btn" type="button" id="dlg-x">Fermer</button>';
+    dlg.showModal();
+  });
+  dlg.addEventListener("click",function(ev){if(ev.target===dlg||ev.target.id==="dlg-x")dlg.close()});
+}
+
+var ng=document.getElementById("news-grid");
+if(!NEWS.length){
+  ng.innerHTML=[["Bientôt","Les premières actualités"],["Sorties","Les nouveaux titres de nos artistes"],["Coulisses","Les projets en préparation"]].map(function(x){return '<article class="news-card rv"><span>'+x[0]+'</span><h3>'+x[1]+'</h3><p>Les annonces de sorties et de signatures apparaîtront ici.</p></article>'}).join("");
+}else{
+  ng.innerHTML=NEWS.map(function(n){return '<article class="news-card rv"><span>'+esc(n.categorie)+(n.date?" · "+esc(n.date):"")+'</span><h3>'+esc(n.titre)+'</h3>'+(n.texte?'<p>'+esc(n.texte)+'</p>':"")+(ok(n.lien)?'<a href="'+esc(n.lien)+'" target="_blank" rel="noopener">Lire</a>':"")+'</article>'}).join("");
+}
+})();
+</script>
+<script>
+// À remplacer par le vrai numéro WhatsApp, au format international sans "+" (ex. 243812345678)
+var WHATSAPP = "243000000000";
+document.getElementById("f").addEventListener("submit", function(e){
+  e.preventDefault();
+  var d = new FormData(e.target);
+  var t = "Bonjour 7Music Group,\nArtiste ou label : " + d.get("nom") +
+    "\nGenre : " + (d.get("genre") || "non précisé") +
+    "\nLien : " + (d.get("lien") || "non précisé") +
+    "\nService souhaité : " + d.get("service") +
+    "\nProjet : " + (d.get("msg") || "non précisé");
+  window.open("https://wa.me/" + WHATSAPP + "?text=" + encodeURIComponent(t), "_blank", "noopener");
+});
+</script>
+<script>
+(function(){
+document.documentElement.className+=" js";
+var reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
+var rv=[].slice.call(document.querySelectorAll(".rv"));
+rv.forEach(function(el){var sib=[].slice.call(el.parentNode.children).filter(function(n){return n.classList.contains("rv")});el.style.transitionDelay=(sib.indexOf(el)*90)+"ms"});
+if("IntersectionObserver" in window&&!reduce){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}})},{threshold:.15});rv.forEach(function(el){io.observe(el)})}else{rv.forEach(function(el){el.classList.add("in")})}
+
+var cv=document.getElementById("wave"),cx=cv.getContext("2d"),big=document.getElementById("big7"),hero=document.querySelector(".hero");
+var N=64,lv=[],mx=-1,W=0,H=0,dpr=Math.min(window.devicePixelRatio||1,2),ac,an,data,playing=false,timer,visible=true;
+function size(){var r=cv.getBoundingClientRect();W=r.width;H=r.height;cv.width=W*dpr;cv.height=H*dpr;cx.setTransform(dpr,0,0,dpr,0,0)}
+size();addEventListener("resize",size);
+hero.addEventListener("pointermove",function(e){var r=cv.getBoundingClientRect();mx=(e.clientX-r.left)/r.width});
+hero.addEventListener("pointerleave",function(){mx=-1});
+if("IntersectionObserver" in window){new IntersectionObserver(function(es){visible=es[0].isIntersecting}).observe(hero)}
+
+function frame(t){
+  if(visible){
+    cx.clearRect(0,0,W,H);
+    if(playing)an.getByteFrequencyData(data);
+    var bw=W/N;
+    for(var i=0;i<N;i++){
+      var v=playing?data[Math.floor(i*.6)]/255:.2+.14*Math.sin(t/700+i*.35)+.08*Math.sin(t/330+i*.9);
+      if(mx>=0)v+=Math.max(0,.35-Math.abs(i/N-mx)*2.2);
+      lv[i]=(lv[i]||0)*.8+v*.2;
+      var h=Math.max(4,lv[i]*H*.55);
+      cx.fillStyle="rgba(200,162,74,"+(.1+lv[i]*.35)+")";
+      cx.fillRect(i*bw+bw*.2,H-h,bw*.6,h);
+    }
+    var b=playing?data[2]/255:(.5+.5*Math.sin(t/520))*.3;
+    big.style.setProperty("--beat",(1+b*.05).toFixed(3));
+  }
+  if(!reduce)requestAnimationFrame(frame);
+}
+requestAnimationFrame(frame);
+
+function startAudio(){
+  ac=new (window.AudioContext||window.webkitAudioContext)();
+  an=ac.createAnalyser();an.fftSize=256;data=new Uint8Array(an.frequencyBinCount);
+  var m=ac.createGain();m.gain.value=.5;m.connect(an);an.connect(ac.destination);
+  var step=60/96/4,n=0,next=ac.currentTime+.1,bass=[55,0,0,55,0,0,73.4,0,55,0,0,55,0,82.4,0,0];
+  function kick(t){var o=ac.createOscillator(),g=ac.createGain();o.frequency.setValueAtTime(150,t);o.frequency.exponentialRampToValueAtTime(40,t+.15);g.gain.setValueAtTime(1,t);g.gain.exponentialRampToValueAtTime(.001,t+.3);o.connect(g);g.connect(m);o.start(t);o.stop(t+.3)}
+  function hat(t){var b=ac.createBuffer(1,ac.sampleRate*.05,ac.sampleRate),d=b.getChannelData(0);for(var i=0;i<d.length;i++)d[i]=Math.random()*2-1;var s=ac.createBufferSource(),f=ac.createBiquadFilter(),g=ac.createGain();s.buffer=b;f.type="highpass";f.frequency.value=7000;g.gain.setValueAtTime(.25,t);g.gain.exponentialRampToValueAtTime(.001,t+.05);s.connect(f);f.connect(g);g.connect(m);s.start(t)}
+  function note(t,fr){var o=ac.createOscillator(),g=ac.createGain();o.type="triangle";o.frequency.value=fr;g.gain.setValueAtTime(.5,t);g.gain.exponentialRampToValueAtTime(.001,t+.35);o.connect(g);g.connect(m);o.start(t);o.stop(t+.4)}
+  timer=setInterval(function(){while(next<ac.currentTime+.2){var k=n%16;if(k%4===0||k===10)kick(next);if(k%2===1)hat(next);if(bass[k])note(next,bass[k]*2);n++;next+=step}},50);
+}
+var btn=document.getElementById("snd");
+btn.addEventListener("click",function(){
+  if(!ac){startAudio();playing=true}
+  else if(playing){ac.suspend();playing=false}
+  else{ac.resume();playing=true}
+  btn.textContent=playing?"Couper le son":"Activer le son";
+  btn.setAttribute("aria-pressed",playing);
+});
+})();
+</script>
+</body>
+</html>
